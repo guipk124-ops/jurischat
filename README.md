@@ -1,0 +1,2 @@
+# jurischat
+aplicativo juridico
