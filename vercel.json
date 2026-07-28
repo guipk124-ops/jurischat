@@ -1,0 +1,69 @@
+# 🚀 JurisChat - Deploy Vercel com Um Clique
+
+## Clique Aqui para Fazer Deploy Automático:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fguipk124-ops%2Fjurischat&env=DATABASE_URL,OPENAI_API_KEY,NEXT_PUBLIC_APP_URL,NODE_ENV&envDescription=Configure%20suas%20chaves%20de%20API&project-name=jurischat&repository-name=jurischat)
+
+---
+
+## 📋 Variáveis de Ambiente Necessárias
+
+Antes de clicar no botão acima, prepare:
+
+### 1. DATABASE_URL (Supabase)
+```
+postgresql://postgres:Ciril0-2103@[seu-project].supabase.co:5432/postgres
+```
+
+### 2. OPENAI_API_KEY (Claude API)
+```
+sk-ant-v0-...
+```
+
+### 3. NEXT_PUBLIC_APP_URL
+```
+https://seu-app.vercel.app
+```
+
+### 4. NODE_ENV
+```
+production
+```
+
+---
+
+## ⚡ Passo-a-Passo Rápido
+
+1. **Clique no botão acima**
+2. **Autorize GitHub**
+3. **Preencha as variáveis de ambiente**
+4. **Clique "Deploy"**
+5. **Espere 2-3 minutos**
+6. **Pronto! Seu link está funcionando** 🎉
+
+---
+
+## 🔑 Como Gerar as Chaves?
+
+### Supabase
+1. Vá em https://supabase.com
+2. Crie conta (GitHub)
+3. Crie projeto (jurischat)
+4. Settings → Database → Connection Pooling → URI
+
+### Claude API
+1. Vá em https://console.anthropic.com
+2. Crie conta (email)
+3. API Keys → Create Key
+4. Copie a chave
+
+---
+
+## ✅ Feito!
+
+Seu app está rodando em:
+```
+https://jurischat-seu-usuario.vercel.app
+```
+
+**Compartilhe com seus clientes e comece a usar! 🚀**
